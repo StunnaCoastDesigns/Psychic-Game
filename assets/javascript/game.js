@@ -18,8 +18,6 @@ var updateGuessesLeft = function () {
     console.log(guessesLeft);
 }
 
-
-
 var updateComputerLetter = function () {
     computerLetter = letters[Math.floor(Math.random() * letters.length)];
 }
